@@ -36,7 +36,7 @@ merged_data = cleandata_long.merge(group_long, on="Condition", how="left")
 # find the unmatched Condition
 unmatched_conditions = merged_data[merged_data["Group"].isna()]["Condition"].unique()
 if len(unmatched_conditions) > 0:
-    print("未匹配的 Condition：")
+    print("unmatch Condition：")
     print(unmatched_conditions)
 
 # save the new datasets
