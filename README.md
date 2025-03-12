@@ -6,26 +6,30 @@ This document provides guidelines for preparing the dataset and performing time 
 
 ### 1. Clone the Repository
 
-To get started, clone this repository using:
+To get started, clone this repository using the following command:
 
 ```sh
-git clone https://github.com/YUQIAOTANG/Chemical_compound_for_time_trend_analysis
+git clone https://github.com/YUQIAOTANG/Chemical_compound_for_time_trend_analysis.git
+```
 
-### 2. Install packages
-Depending on your environment, install the necessary dependencies:
+### 2. Install Required Packages
 
-#### R environment
-```R
-install.packages(c("ggplot2", "readxl", "dplyr", "mfuzz","minpack.lm"))
+Depending on your environment, install the necessary dependencies.
+
+#### R Environment
+
+```r
+install.packages(c("ggplot2", "readxl", "dplyr", "mfuzz", "minpack.lm"))
+```
 
 ## Dataset Preparation
 
 To ensure proper analysis, the dataset should be formatted as follows:
 
-| Name  | Condition | Concentration | Group |
-|-------|----------|--------------|-------|
-| Compound A | Condition 1 | 10.5 | Group 1 |
-| Compound B | Condition 2 | 15.2 | Group 2 |
+| Name       | Condition   | Concentration | Group   |
+|------------|------------|--------------|---------|
+| Compound A | Condition 1 | 10.5         | Group 1 |
+| Compound B | Condition 2 | 15.2         | Group 2 |
 
 Each column represents:
 - **Name**: The name of the chemical compound.
@@ -37,11 +41,11 @@ Each column represents:
 
 To perform time trend analysis, follow these steps:
 
-1. **Set the data path**  
-   Ensure the dataset is stored as an `.xlsx` file. Specify the file path in the script.
+1. **Set the Data Path**  
+   Ensure the dataset is stored as an `.xlsx` file. Specify the file path in the script before running the analysis.
 
-2. **Run the analysis script**  
-   Source the provided R script. Upon execution, the following outputs are expected:
+2. **Run the Analysis Script**  
+   Execute the provided R script. Upon execution, the following outputs are expected:
    - The **time constant** will be displayed in the terminal.
    - A **trend plot** for the specified compound will be generated and saved in the same directory as the dataset.
 
