@@ -19,7 +19,7 @@ Depending on your environment, install the necessary dependencies.
 #### R Environment
 
 ```r
-install.packages(c("ggplot2", "readxl", "dplyr", "mfuzz", "minpack.lm"))
+install.packages(c("ggplot2", "readxl", "dplyr", "Mfuzz", "minpack.lm", "stringr"))
 ```
 
 ## Dataset Preparation
