@@ -2,6 +2,22 @@
 
 This document provides guidelines for preparing the dataset and performing time trend analysis for chemical compounds.
 
+## Installation and Setup
+
+### 1. Clone the Repository
+
+To get started, clone this repository using:
+
+```sh
+git clone https://github.com/YUQIAOTANG/Chemical_compound_for_time_trend_analysis
+
+### 2. Install packages
+Depending on your environment, install the necessary dependencies:
+
+#### R environment
+```R
+install.packages(c("ggplot2", "readxl", "dplyr", "mfuzz","minpack.lm"))
+
 ## Dataset Preparation
 
 To ensure proper analysis, the dataset should be formatted as follows:
