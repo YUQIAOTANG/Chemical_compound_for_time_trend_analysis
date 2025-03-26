@@ -126,4 +126,4 @@ install.packages(c("readxl", "ggplot2", "dplyr", "stringr", "minpack.lm", "openx
 
 ## Author
 
-Yuqiao Tang EAI Northeastern University
+Yuqiao Tang, EAI Northeastern University
