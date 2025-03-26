@@ -108,7 +108,7 @@ If non-monotonic fitting fails (e.g., poor correlation):
 ## Scripts
 
 - `naturaltrend_3.17.R`: Analyzes natural degradation patterns (e.g., "0yr Dry", "0yr Wet").
-- `artificialtrend3.24.R`: Analyzes artificial trend under different treatments (e.g., "TNU_D_Dry", "TNU_L_Wet").
+- `artificialtrend3.24.R`: Analyzes artificial trend under Light/Drak treatments (e.g., "TNU_D_Dry", "TNU_L_Wet").
 
 ---
 
