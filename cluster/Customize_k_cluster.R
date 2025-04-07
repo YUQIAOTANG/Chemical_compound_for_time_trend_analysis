@@ -23,7 +23,7 @@ eset <- filter.NA(eset)
 eset <- fill.NA(eset, mode = "mean")
 eset <- filter.std(eset, min.std = 0.25)
 
-# 数据标准化
+# data normalized
 eset <- standardise(eset)
 
 # customize the cluster number
