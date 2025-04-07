@@ -21,7 +21,7 @@ The input file should be an Excel file (`.xlsx`) containing the following column
 
 ## Model Overview
 
-Three models are fitted to each compound-group combination, based on the concentration-time profile.
+Three models are fitted to each compound-group combination, based on the concentration-time profile. These three models are refered from ["Time-concentration profiles of tire particle additives and transformation products under natural and artificial aging"](https://www.sciencedirect.com/science/article/pii/S0048969722072503?via%3Dihub) 
 
 ### 1. **Monotonic Decreasing Model**
 
