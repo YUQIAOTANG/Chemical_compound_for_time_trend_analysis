@@ -53,7 +53,7 @@ Takes the HDBSCAN results and further subdivides Cluster 1 into 4(set based on p
 
 ### Superised cluster.py
 - `n_clusters=4`: Number of sub-clusters for Cluster 1
-- Custom time points on X-axis : `[0, 2, 4, 6, 8, 12]` weeks
+- Custom time points on X-axis : `[0, 1, 2, 4, 8, 12]` weeks
 - Highlight compounds (TN-wet only): Benzothiazole, 2-amino-benzothiazole
 
 ## Data Processing Pipeline
