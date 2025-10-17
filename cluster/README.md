@@ -51,7 +51,7 @@ Takes the HDBSCAN results and further subdivides Cluster 1 into 4(set based on p
 - `min_samples=2`: Core point definition
 - `cluster_selection_epsilon=0.8`: Cluster distance cutoff
 
-### Superised cluster.py
+### Supervised cluster.py
 - `n_clusters=4`: Number of sub-clusters for Cluster 1
 - Custom time points on X-axis : `[0, 1, 2, 4, 8, 12]` weeks
 - Highlight compounds (TN-wet only): Benzothiazole, 2-amino-benzothiazole
